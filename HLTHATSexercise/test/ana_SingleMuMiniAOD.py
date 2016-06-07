@@ -20,7 +20,7 @@ process.maxEvents = cms.untracked.PSet(
 # Input source
 process.source = cms.Source("PoolSource",
 #   fileNames = cms.untracked.vstring('/store/data/Run2016B/SingleMuon/MINIAOD/PromptReco-v2/000/273/730/00000/00378BFA-B121-E611-93ED-02163E0146D2.root'),
-   fileNames = cms.untracked.vstring('file:/eos/uscms/store/user/cmsdas/2016/SHORT_EXERCISES/Trigger/HATS/skim_SingleMuon_dimupt20_20k.root'),
+   fileNames = cms.untracked.vstring('/store/user/hats/Trigger/2016/skim_SingleMuon_dimupt20_20k.root'), # file on EOS at LPC
 )
 
 

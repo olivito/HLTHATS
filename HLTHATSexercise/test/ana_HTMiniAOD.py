@@ -20,7 +20,7 @@ process.maxEvents = cms.untracked.PSet(
 # Input source
 process.source = cms.Source("PoolSource",
 #   fileNames = cms.untracked.vstring('/store/data/Run2016B/JetHT/MINIAOD/PromptReco-v2/000/273/730/00000/04C3D8B6-B821-E611-B245-02163E011979.root'),
-   fileNames = cms.untracked.vstring('file:/eos/uscms/store/user/cmsdas/2016/SHORT_EXERCISES/Trigger/HATS/skim_JetHT_pfht475_15k.root'),
+   fileNames = cms.untracked.vstring('/store/user/hats/Trigger/2016/skim_JetHT_pfht475_15k.root'), # file on EOS at LPC
 )
 
 
