@@ -12,6 +12,7 @@ void plot_trigeff_singlemu (const TString& infile = "histos_SingleMuTrigAnalyzer
   gStyle->SetPadBottomMargin(0.12);
   gStyle->SetPadLeftMargin(0.15);
   gStyle->SetPadRightMargin(0.05);
+  gStyle->SetOptStat(0);
 
   TH1::SetDefaultSumw2();
   
