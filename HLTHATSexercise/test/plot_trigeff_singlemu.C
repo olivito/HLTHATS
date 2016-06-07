@@ -6,7 +6,7 @@
 #include "TEfficiency.h"
 #include "TStyle.h"
 
-void plot_trigeff_singlemu (const TString& infile = "histos_100k_skim.root") {
+void plot_trigeff_singlemu (const TString& infile = "histos_SingleMuTrigAnalyzer.root") {
 
   gStyle->SetPadTopMargin(0.08);
   gStyle->SetPadBottomMargin(0.12);

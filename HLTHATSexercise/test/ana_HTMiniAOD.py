@@ -19,7 +19,7 @@ process.maxEvents = cms.untracked.PSet(
 # Input source
 process.source = cms.Source("PoolSource",
 #   fileNames = cms.untracked.vstring('/store/data/Run2016B/JetHT/MINIAOD/PromptReco-v2/000/273/730/00000/04C3D8B6-B821-E611-B245-02163E011979.root'),
-   fileNames = cms.untracked.vstring('file:skim_pfht475_5files.root'),
+   fileNames = cms.untracked.vstring('file:/eos/uscms/store/user/cmsdas/2016/SHORT_EXERCISES/Trigger/HATS/skim_JetHT_pfht475_15k.root'),
 )
 
 
@@ -37,7 +37,7 @@ process.configurationMetadata = cms.untracked.PSet(
 # Output definition
 
 process.TFileService = cms.Service("TFileService",
-                                       fileName = cms.string('histos_ht_skim.root')
+                                       fileName = cms.string('histos_HTTrigAnalyzer.root')
                                    )
 
 ### analyzer configuration

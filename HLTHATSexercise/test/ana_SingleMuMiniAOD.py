@@ -19,7 +19,7 @@ process.maxEvents = cms.untracked.PSet(
 # Input source
 process.source = cms.Source("PoolSource",
 #   fileNames = cms.untracked.vstring('/store/data/Run2016B/SingleMuon/MINIAOD/PromptReco-v2/000/273/730/00000/00378BFA-B121-E611-93ED-02163E0146D2.root'),
-   fileNames = cms.untracked.vstring('file:skim.root'),
+   fileNames = cms.untracked.vstring('file:/eos/uscms/store/user/cmsdas/2016/SHORT_EXERCISES/Trigger/HATS/skim_SingleMuon_dimupt20_20k.root'),
 )
 
 
@@ -37,7 +37,7 @@ process.configurationMetadata = cms.untracked.PSet(
 # Output definition
 
 process.TFileService = cms.Service("TFileService",
-                                       fileName = cms.string('histos_100k_skim.root')
+                                       fileName = cms.string('histos_SingleMuTrigAnalyzer.root')
                                    )
 
 ### analyzer configuration
